@@ -41,8 +41,6 @@ class LoginPage2State extends State<LoginPage2> {
           children: [
             _buildHeader(),
             const SizedBox(height: 30.0),
-            _buildOtpRow(),
-            const SizedBox(height: 16.0),
             _buildBottomStack(context),
           ],
         ),
